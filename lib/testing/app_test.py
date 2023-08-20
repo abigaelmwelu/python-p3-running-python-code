@@ -30,3 +30,7 @@ class TestAppPy:
         runpy.run_path("lib/app.py")
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "Hello World! Pass this test, please.\n")
+        # Python
+dog_name = "Lucy"
+print(f"Say hello to my dog {dog_name}")
+# Say hello to my dog Lucy
